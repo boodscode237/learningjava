@@ -41,44 +41,24 @@ public class Main {
 //        }
 //        System.out.println("Play next song");
 
-        Scanner input = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
-        String question1 = "What iam I from?";
+        String question = "What iam I from?";
         String choice1 = "Russia";
         String choice2 = "Belarus";
         String choice3 = "Indonesia";
 
-        String question2 = "Are you me?";
-        String choice1a = "maybe";
-        String choice2b = "yeah";
-        String choice3c = "Interesting";
-
-        String question3 = "Are you you?";
-        String choice1d = "maybe";
-        String choice2e = "yeah";
-        String choice3f = "Interesting";
 
 
 
-        String correct1 = choice2;
-        String correct2 = choice2b;
-        String correct3 = choice2e;
-        System.out.println(question1);
-        String userAnswer1 = input.next();
-        System.out.println(question2);
-        String userAnswer2 = input.next();
-        System.out.println(question3);
-        String userAnswer3 = input.next();
+        String correct = choice2;
+        System.out.println(question);
+        String input = scanner.next();
 
-        if (userAnswer1 == correct1 && userAnswer2 == correct2 && userAnswer3==correct3){
+        if (correct.equals(input.toLowerCase())){
             System.out.println("perfect answers");
-        } else if (userAnswer1!=correct1){
-                System.out.println("Answer to question 1 is " + correct1);
-        }
-        else if (userAnswer2!=correct2){
-            System.out.println("Answer to question 2 is " + correct2);
-        }else if (userAnswer3!=correct3){
-            System.out.println("Answer to question 3 is " + correct3);
+        } else {
+                System.out.println("Answer to question  is " + correct);
         }
     }
 }
