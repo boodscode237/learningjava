@@ -1,7 +1,18 @@
 import java.util.Scanner;
 
 public class Main {
+    public static void freeTime(){
+        System.out.println("waiting for free time...");
+        System.out.println("type a random word and press enter to start developer tea time");
+        Scanner input = new Scanner(System.in);
+        input.next();
+        System.out.println("You are free now");
+    }
     public static void main(String[] args) {
+//        System.out.println("waiting for free time...");
+
+//
+        freeTime();
 //        int age = 15;
 //        double GPA = 3.45;
 //        char firstInitial = 'A';
@@ -41,25 +52,25 @@ public class Main {
 //        }
 //        System.out.println("Play next song");
 
-        Scanner scanner = new Scanner(System.in);
-
-        String question = "What iam I from?";
-        String choice1 = "Russia";
-        String choice2 = "Belarus";
-        String choice3 = "Indonesia";
-
-
-
-
-        String correct = choice2;
-        System.out.println(question);
-        String input = scanner.next();
-
-        if (correct.equals(input.toLowerCase())){
-            System.out.println("perfect answers");
-        } else {
-                System.out.println("Answer to question  is " + correct);
-        }
+//        Scanner scanner = new Scanner(System.in);
+//
+//        String question = "What iam I from?";
+//        String choice1 = "Russia";
+//        String choice2 = "Belarus";
+//        String choice3 = "Indonesia";
+//
+//
+//
+//
+//        String correct = choice2;
+//        System.out.println(question);
+//        String input = scanner.next();
+//
+//        if (correct.equals(input.toLowerCase())){
+//            System.out.println("perfect answers");
+//        } else {
+//                System.out.println("Answer to question  is " + correct);
+//        }
     }
 }
 
