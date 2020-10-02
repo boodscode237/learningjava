@@ -11,8 +11,7 @@ public class Main {
     public static void main(String[] args) {
 //        System.out.println("waiting for free time...");
 
-//
-        freeTime();
+//        freeTime();
 //        int age = 15;
 //        double GPA = 3.45;
 //        char firstInitial = 'A';
