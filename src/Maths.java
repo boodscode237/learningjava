@@ -26,5 +26,7 @@ public class Maths {
 
         System.out.println(triangleA.sideLine3);
         System.out.println(triangleB.base);
+
+        System.out.println(Triangle.numOfSides);
     }
 }

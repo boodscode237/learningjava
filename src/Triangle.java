@@ -1,4 +1,6 @@
 public class Triangle {
+    static int numOfSides=3;
+
     double base, height, sideLine1, sideLine2, sideLine3;
     public Triangle(double base,double height, double sideLine1, double sideLine2, double sideLine3){
         this.base=base;
